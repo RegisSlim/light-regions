@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using System.Collections;
 using System.Collections.Generic;
 using Unity.EditorCoroutines.Editor;
@@ -6,7 +7,7 @@ using UnityEditor;
 using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.Rendering;
-
+using LightRegions;
 namespace LightRegions.EditorExtensions
 {
     [CustomEditor(typeof(RegionManager))]
@@ -972,3 +973,4 @@ namespace LightRegions.EditorExtensions
     }
 
 }
+#endif
