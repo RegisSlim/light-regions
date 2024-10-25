@@ -1,0 +1,18 @@
+{
+    "name": "region.light-regions.Editor",
+    "rootNamespace": "LightRegions.EditorExtensions",
+    "references": [
+        "GUID:c949441e208024140b840558ecb9073b",
+        "GUID:478a2357cc57436488a56e564b08d223",
+        "GUID:54cb1906aeb4e4264bc1d2aa3818a43f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

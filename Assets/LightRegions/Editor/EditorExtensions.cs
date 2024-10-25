@@ -64,19 +64,19 @@ namespace LightRegions.EditorExtensions
                 if (boundsMode.enumValueIndex == 0)
                 {
                     regionManager.boundsMode = RegionManagerBoundsMode.Box;
-                    regionManager.AddComponent<BoxCollider>();
+                    regionManager.gameObject.AddComponent<BoxCollider>();
                     regionManager.SetupBoundingMesh();
                 }
                 else if(boundsMode.enumValueIndex == 1)
                 {
                     regionManager.boundsMode = RegionManagerBoundsMode.Sphere;
-                    regionManager.AddComponent<SphereCollider>();
+                    regionManager.gameObject.AddComponent<SphereCollider>();
                     regionManager.SetupBoundingMesh();
                 }
                 else if(boundsMode.enumValueIndex == 2)
                 {
                     regionManager.boundsMode = RegionManagerBoundsMode.Custom;
-                    regionManager.AddComponent<MeshCollider>();
+                    regionManager.gameObject.AddComponent<MeshCollider>();
                     regionManager.SetupBoundingMesh();
                 }
                 lastBoundsMode = boundsMode.enumValueIndex;
