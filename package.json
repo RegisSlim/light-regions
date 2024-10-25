@@ -1,0 +1,11 @@
+{
+  "name": "com.regis.light-regions",
+  "version": "1.0",
+  "displayName": "Light Regions",
+  "description": "Volume based occlusion culling for lights and gameobjects.",
+  "author": {
+    "name": "Regis Slim",
+    "email": "unity@example.com",
+    "url": "https://www.unity3d.com"
+  }
+}
