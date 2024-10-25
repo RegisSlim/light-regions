@@ -8,4 +8,8 @@
     "email": "unity@example.com",
     "url": "https://www.unity3d.com"
   }
+  "dependencies": {
+    "com.unity.render-pipelines.high-definition": "14.0.0",
+    "com.unity.editorcoroutines": "1.0.0"
+  }
 }
